@@ -43,7 +43,7 @@ sudo chown student:student /opt/files /opt/processed
 ## 🐳 Step 5: Run Container with Volume Mounts
 
 ```bash
-podman run --name escti2pdf -v /opt/files:/opt/incoming/:Z -v /opt/processed:/opt/outgoing/:Z monitor:latest
+podman run -d --name escti2pdf -v /opt/files:/opt/incoming/:Z -v /opt/processed:/opt/outgoing/:Z monitor:latest
 podman ps
 ```
 
