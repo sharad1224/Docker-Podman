@@ -1,5 +1,7 @@
 # Podman Systemd Container Workflow
 
+*Generated on 2025-08-05*
+
 This document provides a step-by-step explanation of commands used to configure and manage Podman containers with systemd integration.
 
 ### Step 1
