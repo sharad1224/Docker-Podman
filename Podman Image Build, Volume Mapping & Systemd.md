@@ -19,6 +19,8 @@ ls
 
 ```bash
 podman build -t monitor .
+```
+```bash
 podman images
 ```
 
