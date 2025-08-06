@@ -30,6 +30,8 @@ podman images
 
 ```bash
 podman run -d --name sharad monitor:latest
+```
+```bash
 podman ps
 ```
 
