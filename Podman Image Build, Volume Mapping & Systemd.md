@@ -85,8 +85,14 @@ loginctl enable-linger student
 
 ```bash
 systemctl daemon-reload --user
+```
+```bash
 systemctl enable --now container-escti2pdf.service --user
+```
+```bash
 systemctl status container-escti2pdf.service --user
+```
+```bash
 podman ps
 ```
 
