@@ -8,6 +8,8 @@ This guide outlines the steps to build, run, and configure a Podman container fo
 
 ```bash
 wget http://content.example.com/deploy_containers/Containerfile
+```
+```bash
 ls
 ```
 
