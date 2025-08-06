@@ -41,6 +41,8 @@ podman ps
 
 ```bash
 sudo mkdir -p /opt/files /opt/processed
+```
+```bash
 sudo chown student:student /opt/files /opt/processed
 ```
 
