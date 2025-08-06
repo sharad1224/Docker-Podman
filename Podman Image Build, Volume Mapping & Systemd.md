@@ -63,7 +63,11 @@ podman ps
 
 ```bash
 mkdir -p /home/student/.config/systemd/user
+```
+```bash
 cd /home/student/.config/systemd/user
+```
+```bash
 podman generate systemd --name escti2pdf --files --new
 ```
 
