@@ -52,6 +52,8 @@ sudo chown student:student /opt/files /opt/processed
 
 ```bash
 podman run -d --name escti2pdf -v /opt/files:/opt/incoming/:Z -v /opt/processed:/opt/outgoing/:Z monitor:latest
+```
+```bash
 podman ps
 ```
 
